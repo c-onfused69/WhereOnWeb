@@ -27,14 +27,14 @@
 <br/>
 
 ## 📁 Folder Structure
-
+```bash
 WhereOnWeb/
 │
 ├── index.html # Main HTML file
 ├── css/ style.css # CSS for styling
 ├── js/ script.js # JavaScript for logic
 └── README.md # Project documentation
-
+```
 
 
 <br/>
