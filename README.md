@@ -22,7 +22,7 @@
 
 ## 📸 Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](./screenshots/screenshot.png)
 
 <br/>
 
