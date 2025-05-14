@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - WhereOnWeb</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+    <button class="toggle-mode" onclick="toggleDarkMode()">🌓 Toggle Mode</button>
+  </header>
+
+  <main class="container">
+    <form>
+      <label>Name:</label><br>
+      <input type="text" placeholder="Your name" required><br><br>
+      <label>Email:</label><br>
+      <input type="email" placeholder="Your email" required><br><br>
+      <label>Message:</label><br>
+      <textarea rows="5" placeholder="Your message..." required></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    Get in touch at <a href="mailto:support@whereonweb.com">support@whereonweb.com</a>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
