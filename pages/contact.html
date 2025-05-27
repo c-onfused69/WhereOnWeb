@@ -19,7 +19,7 @@
   </header>
 
   <main class="container">
-    <form>
+    <form id="contact-form">
       <label>Name:</label><br>
       <input type="text" placeholder="Your name" required><br><br>
       <label>Email:</label><br>
@@ -34,6 +34,16 @@
     Get in touch at <a href="mailto:support@whereonweb.com">support@whereonweb.com</a>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("Vjudi8YZkoADdjaNb");
+    })();
+  </script>
   <script src="../js/script.js"></script>
+  <script src="../js/email.js"></script>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', sendEmail);
+  </script>
 </body>
 </html>
